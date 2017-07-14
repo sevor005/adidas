@@ -135,7 +135,7 @@ body {
 .header-search,
 .header-cart {
     height: 50px;
-    width: 60px;
+    width: 59px;
     float: right;
     border-right: 1px solid #9f522a;
     box-shadow: 1px 0 0 #c6754b; 
@@ -452,7 +452,42 @@ body {
     width: 700px;
 }
 
+.content-header {
+    font-size: 30px;
+    color: #303030;
+}
 
+.content-buttom {
+    float: right;
+}
+
+.content-buttom-left{
+    width: 43px;
+    height: 40px;
+    float: left;
+    border-radius: 3px;
+    background: #fff url("../img/content-buttom-left.png") no-repeat center;
+    transition: background-color .2s ease-out;
+}
+
+.content-buttom-left-active {
+    background: #2799c9 url("../img/content-buttom-left.png") no-repeat center;
+    cursor: pointer;
+}
+
+.content-buttom-right {
+    width: 43px;
+    height: 40px;
+    float: right;
+    border-radius: 3px;
+    background: #fff url("../img/content-buttom-right.png") no-repeat center;
+    transition: background-color .2s ease-out;
+}
+
+.content-buttom-right:hover {
+    cursor: pointer;
+    background-color: #e9e0e0;
+}
 
 
 
