@@ -489,6 +489,106 @@ body {
     background-color: #e9e0e0;
 }
 
+.content-first-list {
+    margin-top: 30px;
+}
+
+.content-list-left-menu-header {
+    font-size: 16px;
+    color: #303030;
+}
+
+.content-list-left-menu-price {
+    float: left;
+    margin-top: 35px;
+}
+
+.content-list-left-menu-price-dollar {
+    color: #aaaaaa;
+    font-size: 20px;
+}
+
+.content-list-left-menu-price-number {
+    
+}
+
+.content-list-left-menu-price-buttom {
+    float: right;
+    width: 87px;
+    height: 25px;
+    background-color: #2799c9;
+    margin-top: 15px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.content-list-left {
+    float: left;
+    width: 220px;
+    height: 310px;
+    border-radius: 3px;
+    margin-right: 20px;
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+
+.content-list-left-menu {
+    background-color: #fff;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 15px 15px 20px;
+}
+
+.content-list-center {
+    width: 220px;
+    height: 310px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+
+.content-list-center-menu {
+    background-color: #fff;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 15px 15px 20px;
+}
+
+.content-list-right {
+    float: left;
+    width: 220px;
+    height: 310px;
+    border-radius: 3px;
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+
+.content-list-right-menu {
+    background-color: #fff;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 15px 15px 20px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
