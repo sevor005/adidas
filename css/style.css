@@ -620,7 +620,7 @@ body {
     display: inline-block;
     width: 35px;
     height: 35px;
-    line-height: 50px;
+    line-height: 35px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -653,6 +653,7 @@ body {
 
 .link-not-active {
     cursor: text;
+    color: #808080;
 }
 
 
