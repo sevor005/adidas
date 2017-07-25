@@ -459,12 +459,12 @@ body {
 }
 
 .content-header {
-    display: inline-block;
     margin: 0;
     padding: 0;
     font-size: 30px;
     font-weight: normal;
     color: #303030;
+    float: left;
 }
 
 .view-switch {
@@ -491,14 +491,20 @@ body {
     border-radius: 0 3px 3px 0;
 }
 
-.view-switch-active {
+.view-switch-active-left {
     background-color: #2799c9;
     background-image: url(../img/content-buttom-left.png);
     cursor: auto;
 }
 
+.view-switch-active-right {
+    background-color: #2799c9;
+    background-image: url(../img/content-buttom-right-new.png);
+    cursor: auto;
+}
 
-/*Content-img*/
+
+/*Content-goods*/
 
 .content-goods {
     width: 220px;
@@ -508,11 +514,11 @@ body {
     box-shadow: 1px 1px 3px #808080;
 }
 
-.content-goods-margin {
+.content-goods:last-child {
     margin-right: 0;
 }
 
-.content-img {
+.content-goods-img {
     width: 100%;
     height: 220px;
     border-radius: 3px 3px 0 0;
@@ -534,7 +540,7 @@ body {
     right: -2px;
 }
 
-.content-price {
+.content-discription {
     width: 100%;
     height: 90px;
     padding: 15px 15px 20px 15px;
@@ -583,14 +589,14 @@ body {
     background-color: #f9f9f9;
     border-radius: 3px;
     color: #c6c6c6;
-    cursor: pointer;
+    transition: background-color .2s;
 }
 
-.content-price-btn-active {
+.content-price-btn:hover {
     font-weight: bold;
     background-color: #2799c9;
     color: #fff;
-    cursor: auto;
+    cursor: pointer;
     border-radius: 3px;
 }
 
@@ -598,14 +604,12 @@ body {
 /*Paginator*/
 
 .paginator {
-    width: 700px;
     height: 50px;
     margin-top: 38px;
     background-color: #fff;
     border-radius: 3px;
     text-align: center;
     line-height: 50px;
-    float: right;
     box-shadow: 1px 1px 3px #808080;
 }
 
@@ -620,6 +624,7 @@ body {
     display: inline-block;
     width: 35px;
     height: 35px;
+    color: #808080;
     line-height: 35px;
     margin: 0;
     padding: 0;
@@ -651,10 +656,6 @@ body {
     cursor: text;
 }
 
-.link-not-active {
-    cursor: text;
-    color: #808080;
-}
 
 
 
