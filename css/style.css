@@ -26,10 +26,11 @@ body {
     height: 110px;
 }
 
-
-
-
-
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /*Header
 ===========================================================================*/
@@ -66,7 +67,7 @@ body {
     text-transform: uppercase;
     line-height: 50px;
     text-decoration: none;
-    transition: background .2s ease-out;
+    transition: background-color .2s ease-out;
 }
 
 .header-menu-item-dropdown {
@@ -135,7 +136,7 @@ body {
 .header-search,
 .header-cart {
     height: 50px;
-    width: 59px;
+    width: 53px;
     float: right;
     border-right: 1px solid #9f522a;
     box-shadow: 1px 0 0 #c6754b; 
@@ -155,14 +156,6 @@ body {
     background: url("../img/profile.png") no-repeat center;
     float: right;
 }
-
-
-
-
-
-
-
-
 
 /*Footer
 ============================================================================*/
@@ -207,6 +200,10 @@ body {
     transform: rotate(25deg);
 }
 
+.footer-menu li:last-child:after {
+    display: none;
+}
+
 .footer-menu li a {
     color: #fff;
     text-decoration: none;
@@ -233,9 +230,6 @@ body {
     margin: 24px 0 20px;
     box-shadow: 0 0 12px -1px rgba(0, 0, 0, .5);
 }
-
-
-
 
 /*Main
 =============================================================================*/
@@ -277,12 +271,12 @@ body {
     padding: 0 35px;
     text-decoration: none;
     color: #161616;
-    transition: color, background .2s ease-out;
+    transition: color, background-color .2s ease-out;
 }
 
 .sidebar-menu li a:hover {
     color: #fff;
-    background: #fc5b5b;
+    background-color: #fc5b5b;
 }
 
 .sidebar-menu-active {
@@ -655,52 +649,3 @@ body {
     color: #fff;
     cursor: text;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.shop {
-    position: absolute;
-    top: -15px;
-    left: 44px;
-    opacity: .5;
-    display: none;
-}
-
-
-
-
